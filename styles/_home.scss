@@ -53,9 +53,21 @@ $alt-back: transparentize(
     padding: 1rem 0.4rem;
     margin-top: 1rem;
     .bigTitle {
+      display: block;
       font-size: 2rem;
       font-weight: 500;
+      width: 90%;
+      margin: 0 auto 0.5rem auto;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px $blue solid;
     }
+    .titleArea {
+      height: 2rem;
+      .appsTitle {
+        font-size: 1.1rem;
+      }
+    }
+
     .apps {
       display: flex;
       flex-direction: row;
@@ -66,7 +78,7 @@ $alt-back: transparentize(
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0.5rem;
+        margin-bottom: 0.7rem;
         border-radius: 2.7px;
         max-width: 100%;
         img {
