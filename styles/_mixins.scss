@@ -1,0 +1,15 @@
+// Mixins
+
+// Media queries
+
+@mixin maxW($wVal) {
+  @media (max-width: ($wVal)) {
+    @content;
+  }
+}
+
+@mixin minW($wVal) {
+  @media (min-width: ($wVal)) {
+    @content;
+  }
+}
